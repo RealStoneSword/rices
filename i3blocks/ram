@@ -1,0 +1,2 @@
+#!/bin/bash
+free | grep Mem | awk '{print "   Percent of RAM in use: "$3/$2 * 100.0" "}'
